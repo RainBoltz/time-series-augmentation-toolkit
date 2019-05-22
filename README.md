@@ -5,10 +5,14 @@ A simple toolkit that helps researchers or specialists to generate more training
   - numpy>=1.12
     
 ## Implementations
-  1. **Distributed Noise (DN)**: adding a noise with defined distribution
-  2. **Window Slicing (WS)**: extracting slices from time series and recombine the them together in orders
-  3. **Window Warping (WW)**: warping a randomly selected slice of a time series by speeding it up or down
-  4. **Dataset Mixing (DM)**: tune the extrapolating between time series in feature space
+  1. **Distributed Noise (DN)**:
+    | adding a noise with defined distribution
+  2. **Window Slicing (WS)**:
+    | extracting slices from time series and recombine the them together in orders
+  3. **Window Warping (WW)**:
+    | warping a randomly selected slice of a time series by speeding it up or down
+  4. **Dataset Mixing (DM)**:
+    | tune the extrapolating between time series in feature space
   
     
 ## Functions
