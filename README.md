@@ -21,7 +21,8 @@ A simple toolkit that helps researchers or specialists to generate more training
     alpha: float, the ratio of changes (new_value = alpha * delta + original_value)
     random_seed: int, set numpy random seed
     '''
-    
+  
+  ################ TODO BELOW ################
   def WS(ts_set, n=None, random_seed=None):
     '''
     ts_set: np.ndarray, time series dataset
