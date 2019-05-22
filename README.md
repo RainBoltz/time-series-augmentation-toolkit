@@ -7,11 +7,11 @@ A simple toolkit that helps researchers or specialists to generate more training
 ## Implementations
   1. **Distributed Noise (DN)**:
       > adding a noise with defined distribution
-  2. **Window Slicing (WS)**:
+  2. ***Window Slicing (WS)***: ~TODO
       > extracting slices from time series and recombine the them together in orders
-  3. **Window Warping (WW)**:
+  3. ***Window Warping (WW)***: ~TODO
       > warping a randomly selected slice of a time series by speeding it up or down
-  4. **Dataset Mixing (DM)**:
+  4. ***Dataset Mixing (DM)***: ~TODO
       > tune the extrapolating between time series in feature space
   
     
@@ -26,7 +26,7 @@ A simple toolkit that helps researchers or specialists to generate more training
     random_seed: int, set numpy random seed
     '''
   
-  ################ TODO BELOW ################
+  ################ TODO ################
   def WS(ts_set, n=None, random_seed=None):
     '''
     ts_set: np.ndarray, time series dataset
